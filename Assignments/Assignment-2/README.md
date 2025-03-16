@@ -14,7 +14,7 @@ Pete's Pet Shop DApp offers an engaging, step-by-step tutorial for those new to 
 ## Getting Started
 
 To get started:
-1. **Review the Guide:** Open the accompanying <a href="Assignment-2/Truffle Suite - Pet Shop Tutorial.pdf" target="_blank">PDF</a> for detailed instructions.
+1. **Review the Guide:** Open the accompanying <a href="Truffle Suite - Pet Shop Tutorial.pdf" target="_blank">PDF</a> for detailed instructions.
 4. **Walk-through the Tutorial:** Follow the offical tutorial for detailed instructions
 5. **Set Up Your Environment:** Install the necessary tools (Node.js, Truffle, Ganache, etc.) as outlined in the guide.
 6. **Deploy and Test:** Follow the tutorial to compile and deploy your smart contracts, then run tests to ensure everything works.
