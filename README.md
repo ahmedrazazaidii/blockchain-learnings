@@ -3,7 +3,8 @@ A repository containing my university blockchain course notes, assignments, and 
 
 ## Contents
 
-- [Simple Blockchain in Go](assignments/simple-blockchain-go/README.md)
+- [Simple Blockchain in Go](Assignments/Assignment-1)
+- [DApp Basics](Assignments/Assignment-2)
 
 ## License
 
