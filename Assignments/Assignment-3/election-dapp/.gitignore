@@ -1,0 +1,31 @@
+# Node modules (npm packages)
+node_modules/
+
+# Build output from Truffle
+build/
+
+# VS Code settings (optional)
+.vscode/
+
+# dotenv environment files
+.env
+
+# Mac system files (if on macOS)
+.DS_Store
+
+# Log files
+*.log
+
+# Artifacts
+*.json
+
+# Coverage reports (if using solidity coverage)
+coverage/
+
+# Compiled contracts (if storing separately)
+*.abi
+*.bin
+
+# Hidden system files
+Thumbs.db
+
