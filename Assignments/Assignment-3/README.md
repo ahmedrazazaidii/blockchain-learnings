@@ -14,8 +14,6 @@ A simple Ethereum-based voting application (dApp) built using Solidity, Truffle,
 6. [Frontend Integration](#frontend-integration)  
 7. [Manual Wallet Connection](#manual-wallet-connection)  
 8. [Running the Application](#running-the-application)  
-9. [Deployment & GitHub](#deployment--github)  
-10. [Next Steps](#next-steps)  
 
 ---
 
@@ -35,6 +33,7 @@ This Election DApp allows users to vote for one of two candidates. It includes:
 
 ## Prerequisites
 
+- Curl
 - Node.js & npm 
 - Truffle (`npm install -g truffle`)  
 - Ganache (local Ethereum blockchain)  
@@ -47,7 +46,7 @@ This Election DApp allows users to vote for one of two candidates. It includes:
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/blockchain-learnings.git
+   git clone https://github.com/ahmedrazazaidii/blockchain-learnings.git
    cd blockchain-learnings/Assignments/Assignment-3/election-dapp
    ```
 
@@ -57,7 +56,9 @@ This Election DApp allows users to vote for one of two candidates. It includes:
    ```
 
 3. **Start Ganache**  
-   - Open Ganache GUI or run `ganache-cli` to spin up a local blockchain on `http://127.0.0.1:7545`
+   - Open Ganache GUI or use ganache cli and spin up a local blockchain on `http://127.0.0.1:7545`
+   - Add a new workspace in Ganache and give a name to the workspace
+   - Add file `truffle-config.js` in that workspace and start
 
 4. **Compile & migrate contracts**  
    ```bash
@@ -148,7 +149,7 @@ truffle migrate --reset --network development
 npm run dev
 
 # 4. Open http://localhost:5173 (or your dev server URL) in browser
-# 5. Click 'Connect Wallet', import a Ganache account in MetaMask
+# 5. Click 'Connect Wallet', and connect to the MetaMask account
 # 6. View candidates and cast your vote
 ```
 
